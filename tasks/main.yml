@@ -1,11 +1,11 @@
 ---
-- name: Install the podman
+- name: Install podman
   ansible.builtin.apt:
     name: podman
     state: present
 
-- name: Install the podman-compose
+- name: Install podman-compose
   ansible.builtin.apt:
     name: podman-compose
     state: present
-  when: install_podman_compose | bool
+  when: podman_install_compose | bool

@@ -11,7 +11,7 @@ This is an Ansible role that installs Podman an Debian Linux using APT.
 To install podman-compose set this variable to ```true```.
 
 ```
-install_podman_compose: false
+podman_install_compose: false
 ```
 
 ## Dependencies

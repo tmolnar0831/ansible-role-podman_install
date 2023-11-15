@@ -1,2 +1,2 @@
 ---
-install_podman_compose: false
+podman_install_compose: false
